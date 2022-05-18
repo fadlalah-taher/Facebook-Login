@@ -136,8 +136,6 @@ footer{
 #footer{
     display: flex;
     flex-direction: column;
-    /*align-content: center;
-    justify-content: space-around;*/
     flex-wrap: wrap;
     margin-left: 15%;
     margin-right: 15%;
@@ -195,26 +193,23 @@ footer{
 @media(max-width:950px){
     .container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
     }
     .left-container{
         width: 400px;
-        display: flex;
         justify-content: center;
         align-items: center;
         margin: 0;
-        margin-top: 20%;
-
+        margin-bottom: 20px;
     }
     .right-container{
-        display: flex;
         justify-content: center;
         align-items: center;
         margin: 0;
-        padding-bottom: 15%;
-        /*margin-right: -12%;*/
-        /*margin-top: 15%;*/
-    }
-    
+    }    
     .left-container p{
         height: 75px;
         font-size: 25px;
